@@ -30,6 +30,9 @@ public class ProjectAlejandroGarzon {public static void main(String[] args) {
         switch (userSelection) {
             case 1:
                 addition(firstNumber, secondNumber);
+                break;
+            case 2:
+                substraction(firstNumber, secondNumber);
                 
             default:
                 System.out.println("ERROR");
@@ -39,5 +42,9 @@ public class ProjectAlejandroGarzon {public static void main(String[] args) {
         
     public static Double addition(Double num1, Double num2) {
         return num1 + num2;
+    }
+    
+    public static Double substraction(Double num1, Double num2) {
+        return num1 - num2;
     }
 }
